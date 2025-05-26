@@ -26,6 +26,7 @@ if (${BUILD_EXAMPLES})
   add_subdirectory(samples/mouse-actions)
   add_subdirectory(samples/camera-actions)
   add_subdirectory(samples/drag-and-drop)
+  add_subdirectory(samples/svg-icon)
 
   if(GDAL_FOUND)
     add_subdirectory(samples/gdal-shapefile)
